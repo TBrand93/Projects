@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.productCard {
+background-color: antiquewhite;
+width:300px;
+border-radius:25% ;
+
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+.productImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 25% ;
+    border-top-right-radius: 25%;
+}
+
+.scheda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+h2, .description p {
+color: #613631;
+margin: 5px;
+}
+
+.description {
+    margin: 10px 0;
+}
+
+
+.price {
+    align-self: center;
+    color: #613631;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.buy {
+    display: block;
+    background-color: #F3DF85;
+    margin: 0 auto;
+    width: 100px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color:#613631;
+    
+}

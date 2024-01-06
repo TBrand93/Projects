@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#612406;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FBF7E3;
+    width: 50vw;
+    height: 100px;
+    border-radius: 50px ;
+}
+
+.navigation, .btnShop{
+    background-color: #F3DF85;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
+img {
+    width: 34%;
+}
+
+.btnShop {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    font-weight: 600;
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+}

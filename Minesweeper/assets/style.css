@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+
+.mainDiv {
+    width: 420px;
+    height: 420px;
+    border: 3px solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.square {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: lightslategray;
+    text-align: center;
+    transition-duration: 500ms;
+}
+
+#gameover {
+    opacity: 0%;
+}
+
+.square:hover {
+    background-color: rgb(129, 205, 174);
+    transform: scale(1.1);
+}
+
+.explosion {
+    
+    background-size: contain;
+    background-image: url(./pngtree-vector-explosion-icon-png-image_781271.jpg);
+    background-color: darkred;
+}
+
+.good {
+background-color: chartreuse;
+}

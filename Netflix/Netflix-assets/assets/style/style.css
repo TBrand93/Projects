@@ -1,0 +1,19 @@
+ 
+ .nero {
+    background-color: #141414;
+ }
+
+ footer p {
+    font-size: 12px;
+}
+
+footer li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+
