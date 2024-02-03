@@ -27,12 +27,19 @@ header {
 
   header,  li, #intestazione, #m  {
     display: inline-block;
+    
   }
   
  ul {
     float: right;
     
  }
+
+ 
+ li{
+  padding-left: 15px;
+  font-size: 0.9em;
+}
 
 
  button {
